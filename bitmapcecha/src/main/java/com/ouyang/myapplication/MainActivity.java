@@ -2,6 +2,7 @@ package com.ouyang.myapplication;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -26,6 +27,23 @@ public class MainActivity extends AppCompatActivity {
 
         MyAdapter adapter = new MyAdapter(this,list);
         lv.setAdapter(adapter);
+
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
+        Log.e("print", "onCreate: " + 22222);
 
         TextView tv;
         ImageView iv;
