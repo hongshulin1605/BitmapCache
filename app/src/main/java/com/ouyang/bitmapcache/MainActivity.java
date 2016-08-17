@@ -21,5 +21,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+        MyAdapter adapter = new MyAdapter(this,data);
+        lv.setAdapter(adapter);
     }
 }
