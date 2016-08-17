@@ -21,9 +21,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        //做出改变
 
-        MyAdapter adapter = new MyAdapter(this,data);
-        lv.setAdapter(adapter);
+//        MyAdapter adapter = new MyAdapter(this,data);
+//        lv.setAdapter(adapter);
     }
 }
