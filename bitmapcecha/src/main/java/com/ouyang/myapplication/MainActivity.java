@@ -2,7 +2,10 @@ package com.ouyang.myapplication;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,5 +27,13 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter adapter = new MyAdapter(this,list);
         lv.setAdapter(adapter);
 
+        TextView tv;
+        ImageView iv;
+        Button btn;
+
     }
+
+
+
+
 }
