@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BitmapCache.iml" filepath="$PROJECT_DIR$/BitmapCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BitmapCache.iml" filepath="$PROJECT_DIR$/BitmapCache.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bitmapcecha/bitmapcecha.iml" filepath="$PROJECT_DIR$/bitmapcecha/bitmapcecha.iml" />
       <module fileurl="file://$PROJECT_DIR$/bitmapcecha/bitmapcecha.iml" filepath="$PROJECT_DIR$/bitmapcecha/bitmapcecha.iml" />
     </modules>
   </component>

@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
             data.add(i + ">>>>>>>>>>>>>>>");
         }
 
+
+        //做出改变
+
         MyAdapter adapter = new MyAdapter(this,data);
         lv.setAdapter(adapter);
     }
