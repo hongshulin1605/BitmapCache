@@ -2,6 +2,7 @@ package com.ouyang.bitmapcache;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -20,6 +21,17 @@ public class MainActivity extends AppCompatActivity {
             data.add(i + ">>>>>>>>>>>>>>>");
         }
 
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 20; j++) {
+                Log.e("print", "onCreate: ");
+                Log.e("print", "onCreate: ");
+                Log.e("print", "onCreate: ");
+                Log.e("print", "onCreate: ");
+                Log.e("print", "onCreate: ");
+                Log.e("print", "onCreate: ");
+                Log.e("print", "onCreate: ");
+            }
+        }
 
         MyAdapter adapter = new MyAdapter(this,data);
         lv.setAdapter(adapter);
