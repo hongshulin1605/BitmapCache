@@ -21,17 +21,15 @@ public class MainActivity extends AppCompatActivity {
             data.add(i + ">>>>>>>>>>>>>>>");
         }
 
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 20; j++) {
-                Log.e("print", "onCreate: ");
-                Log.e("print", "onCreate: ");
-                Log.e("print", "onCreate: ");
-                Log.e("print", "onCreate: ");
-                Log.e("print", "onCreate: ");
-                Log.e("print", "onCreate: ");
-                Log.e("print", "onCreate: ");
-            }
-        }
+        Log.e("print", "onCreate: " + 111);
+        Log.e("print", "onCreate: " + 111);
+        Log.e("print", "onCreate: " + 111);
+        Log.e("print", "onCreate: " + 111);
+        Log.e("print", "onCreate: " + 111);
+        Log.e("print", "onCreate: " + 111);
+        Log.e("print", "onCreate: " + 111);
+        Log.e("print", "onCreate: " + 111);
+        Log.e("print", "onCreate: " + 111);
 
         MyAdapter adapter = new MyAdapter(this,data);
         lv.setAdapter(adapter);
